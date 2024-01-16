@@ -1,8 +1,3 @@
-import React from "react";
-import "./Body.css";
-import RestuarantCard from "./RestuarantCard/RestuarantCard";
-import SearchBar from "./SearchBar/SearchBar";
-
 const resList = [
   {
     info: {
@@ -1420,29 +1415,7 @@ const resList = [
     },
   },
 ];
-const Body = () => {
-  return (
-    <div className="body">
-      <div className="search">
-        <SearchBar />
-      </div>
-      <div className="res-container">
-        <RestuarantCard
-          resName="Meghna Food"
-          cuisine="Biryani, North Indian, Asian"
-        />
-        <RestuarantCard resName="KFC" cuisine="Biryani, North Indian, Asian" />
-        <RestuarantCard
-          resName="Baba Jee ka Dhaba"
-          cuisine="Biryani, North Indian, Asian"
-        />
-        <RestuarantCard
-          resName="Kannur Food Corner"
-          cuisine="Biryani, North Indian, Asian"
-        />
-      </div>
-    </div>
-  );
-};
 
-export default Body;
+export default resList;
+
+// This is the method of default export method.

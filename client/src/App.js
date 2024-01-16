@@ -1,7 +1,6 @@
-import "./App.css";
-import Body from "./Components/Body/Body";
-import Footer from "./Components/Footer/Footer";
-import Header from "./Components/Header/Header";
+import Body from "./components/Body";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 const AppLayout = () => {
   return (

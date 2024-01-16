@@ -1,3 +1,5 @@
+
+## Structure which I follow to build this project
 /**
  * ---Header:
  *      -Logo
@@ -5,7 +7,7 @@
  *  ---Body:
  *      -Search
  *      -Restuarant Container
- *          -Restuarant Card
+ *          -Restuarant Cards
  *  ---Foter
  *      -Copyright
  *      -Links
@@ -14,3 +16,5 @@
  *
  *
  */
+
+

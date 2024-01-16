@@ -1,6 +1,6 @@
 import React from "react";
 // rafce
-import "./Header.css";
+import { LOGO_URL } from "../utils/constants";
 const Header = () => {
   return (
     <>
@@ -9,7 +9,7 @@ const Header = () => {
           <div className="logo-container">
             <img
               className="logo"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP-Stp3j9l7A7FmeODEQvEwQcBTz_-55i1uZrCXG6lyA&s"
+              src={LOGO_URL}
               alt="Logo Loading"
             />
           </div>
